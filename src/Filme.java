@@ -1,5 +1,5 @@
 public class Filme {
-    //atributos da classe filme
+    //atributos da classe filme (características)
     String nome;
     int anoDeLancamento;
     boolean incluidoNoPlano;
@@ -7,7 +7,7 @@ public class Filme {
     int totalAvaliacoes;
     int duracaoEmMinutos;
 
-    //metodos da classe filme
+    //metodos da classe filme (comportamentos)
     void exibirFichaTecnica() {
         System.out.println("Nome do filme: " + nome);
         System.out.println("Ano de Lançamento: " + anoDeLancamento);
