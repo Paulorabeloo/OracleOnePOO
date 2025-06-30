@@ -2,16 +2,49 @@ package br.com.alura.screenmatch.modelos;
 
 public class Filme {
     //atributos da classe filme (características).
-    public String nome;
-    int anoDeLancamento;
-    boolean incluidoNoPlano;
+    private String nome;
+    private int anoDeLancamento;
+    private boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
     private int totalAvaliacoes;
-    int duracaoEmMinutos;
+    private int duracaoEmMinutos;
 
     //metodo acessor
     public int getTotalAvaliacoes(){
         return totalAvaliacoes;
+    }
+
+    //getters e setters (getter acessa o valor e setter modifica o valor)
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+        this.duracaoEmMinutos = duracaoEmMinutos;
+    }
+
+    public void setIncluidoNoPlano(boolean incluidoNoPlano) {
+        this.incluidoNoPlano = incluidoNoPlano;
+    }
+
+    public void setAnoDeLancamento(int anoDeLancamento) {
+        this.anoDeLancamento = anoDeLancamento;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
+    }
+
+    public boolean isIncluidoNoPlano() {
+        return incluidoNoPlano;
+    }
+
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
     }
 
     //metodos da classe filme (comportamentos).

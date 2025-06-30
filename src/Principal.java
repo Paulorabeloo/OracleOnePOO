@@ -4,9 +4,9 @@ public class Principal {
     public static void main(String[] args) {
         //criando objeto
         Filme meuFilme = new Filme();
-        meuFilme.nome = "O Poderoso chefão";
-        meuFilme.anoDeLancamento = 2000;
-        meuFilme.duracaoEmMinutos = 180;
+        meuFilme.setNome("O Poderoso chefão");
+        meuFilme.setAnoDeLancamento(2000);
+        meuFilme.setDuracaoEmMinutos(120);
 
         meuFilme.exibirFichaTecnica();
         meuFilme.avaliarFilme(8);
