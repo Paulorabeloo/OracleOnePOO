@@ -16,6 +16,7 @@ public class Filme {
 
     //getters e setters (getter acessa o valor e setter modifica o valor)
     public void setNome(String nome) {
+        // usado para fazer referência aos atributos da classe, especialmente em métodos que têm parâmetros com o mesmo nome do atributo da classe em que estamos trabalhando.
         this.nome = nome;
     }
 
