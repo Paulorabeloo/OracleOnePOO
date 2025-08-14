@@ -10,7 +10,7 @@ public class Titulo {
     private int duracaoEmMinutos;
 
     //metodo acessor
-    public int getTotalAvaliacoes(){
+    public int getTotalAvaliacoes() {
         return totalAvaliacoes;
     }
 
